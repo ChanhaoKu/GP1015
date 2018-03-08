@@ -1,0 +1,4 @@
+psbasemap -R119/123/21/26 -Jm3.0 -G0/110/255 -Ba1/a1NsEw -P -K> test.ps
+pscoast -R -J -Dc -W1 -G250/250/0 -O -K>>test.ps
+echo 121 23.5 |psxy -R -J -Sa1 -W1 -G255/0/0 -O >> test.ps
+
